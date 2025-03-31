@@ -15,7 +15,7 @@ public class PageManager {
 	HashMap<String, Composite> layouts;
 	Shell shell;
 	
-	public PageManager(Shell shell) {
+	private PageManager(Shell shell) {
 		this.shell = shell;
 		stack = new StackLayout();
 		shell.setLayout(stack);
