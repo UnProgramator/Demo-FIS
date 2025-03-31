@@ -80,7 +80,4 @@ public class ViewClients extends Composite {
 	protected void checkSubclass() {
 		// Disable the check that prevents subclassing of SWT components
 	}
-	
-	@Override
-	public void on
 }
